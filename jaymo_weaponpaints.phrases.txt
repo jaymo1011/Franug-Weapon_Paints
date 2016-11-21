@@ -140,161 +140,74 @@
         "Random paint"
         {
 		"en"		"Random paint"
-		"es"		"Pintura aleatoria"
-		"de"		"Zufall"
-		"pl"		"Losowy skin"
-		"pt"		"Pintura aleatoria"
-		"fr"		"Peinture aleatoire"
-    "it"    "Skin casuale"
-		"tr"		"Rasgele boya"
-		"ru"		"Случайная раскраска"
-		"zho"       "隨機SKIN"
         }
         "Default paint"
         {
 		"en"		"Default paint"
-		"es"		"Pintura por defecto"
-		"de"		"Standard"
-		"pl"		"Domyślny skin"
-		"pt"		"Pintura por defeito"
-		"fr"		"Peinture par defaut"
-    "it"    "Skin predefinita"
-		"tr"		"Normal boya"
-		"ru"		"Стандартная раскраска"
-		"zho"       "預設SKIN"
         }
         "Paint not found"
         {
 		"en"		"Paint not found for this weapon"
-		"es"		"No se ha encontrado pintura para esta arma"
-		"de"		"Tarnung für diese Waffe nicht gefunden"
-		"pl"		"Skin nie działa dla tej broni"
-		"pt"		"Pintura nao encontrada para esta arma"
-		"fr"		"Peinture non trouve pour cette arme"
-    "it"    "Skin non trovata per quest'arma"
-		"tr"		"Boya bulunamadı"
-		"ru"		"Раскраска для этого оружия не найдена"
-		"zho"       "找不到這個武器的SKIN"
         }
         "Paint found"
         {
 		"#format"	"{1:s}"
 		"en"		"The paint of this weapon is{purple} {1}"
-		"es"		"La pintura de este arma es{purple} {1}"
-		"de"		"Die aktuelle Tarnung ist{purple} {1}"
-		"pl"		"Skin dla tej broni to {purple} {1}"
-		"pt"		"Pintura escolhida{purple} {1}"
-		"fr"		"La peinture de cette arme est{purple} {1}"
-		"it"		"La skin di quest'arma è{purple} {1}"
-		"tr"		"Silahınıza boya eklendi{purple} {1}"
-		"ru"		"Раскраска этого оружия{purple} {1}"
-		"zho"       "這個武器的SKIN是{purple} {1}"
         }
         "Menu title 2"
         {
 		"#format"	"{1:s}"
 		"en"		"Weapon Paints [{1}]"
-		"pl"		"Weapon Paints wersja [{1}]"
-		"es"		"Pintura de Armas [{1}]"
-		"zho"       "武器SKIN選單 [{1}]"
         }
         "Select paint for the current weapon"
         {
 		"en"		"Select paint for the current weapon"
-    "it"    "Seleziona una skin per l'arma corrente"
-		"pl"		"Wybierz skina dla tej broni"
-		"es"		"Selecciona pintura para tu arma actual"
-		"zho"       "選擇目前武器的SKIN"
         }
         "Select paint for each weapon"
         {
 		"en"		"Select paint for each weapon"
-    "it"    "Seleziona skin per ogni arma"
-		"pl"		"Wybierz skina dla każdej broni"
-		"es"		"Selecciona pintura para cada arma"
-		"zho"       "選擇每個武器的SKIN"
         }
 
         "Favorite paints menu"
         {
 		"en"		"Favorite paints menu"
-    "it"    "Menù skins preferite"
-		"pl"		"Ulubione skiny"
-		"es"		"Menu de pinturas favoritas"
-		"zho"       "我的最愛SKIN選單"
         }
         "Add a favorite paint"
         {
 		"en"		"Add new favorite paint"
-    "it"    "Aggiungi una nuova skin preferita"
-		"pl"		"Dodaj skina do ulubionych"
-		"es"		"Agregar nueva pintura favorita"
-		"zho"       "增加SKIN到我的最愛列表"
         }
         "Remove a favorite paint"
         {
 		"en"		"Remove a favorite paint"
-    "it"    "Rimuovi una skin preferita"
-		"pl"		"Usuń skina z ulubionych"
-		"es"		"Borrar una pintura favorita"
-		"zho"       "從我的最愛列表移除SKIN"
         }
         "Available favorite paint slot"
         {
 		"en"		"Available favorite paint slot"
-    "it"    "Slot skin preferita disponibile"
-		"pl"		"Dostępne miejsce na ulubione skiny"
-		"es"		"Ranura de pintura favorita disponible"
-		 "zho"       "未選擇"
         }
         "Add a favorite paint"
         {
 		"en"		"Add new favorite paint"
-    "it"    "Aggiungi una nuova skin preferita"
-		"pl"		"Dodaj skina do ulubionych"
-		"es"		"Agregar nueva pintura favorita"
-		"zho"       "增加SKIN到我的最愛列表"
         }
         "Remove a favorite paint"
         {
 		"en"		"Remove a favorite paint"
-    "it"    "Rimuovi una skin preferita"
-		"pl"		"Usuń skina z ulubionych"
-		"es"		"Borrar una pintura favorita"
-		"zho"       "從我的最愛列表移除SKIN"
         }
         "You added a favorite paint"
         {
 		"#format"	"{1:s}"
 		"en"		"You added {purple}{1} {default}to your favorite paints"
-    "it"    "Hai aggiunto {purple}{1} {default} alla tua collezione di skins preferite"
-		"pl"		"Dodałeś {purple}{1} {default} do swoich ulubionych skinów"
-		"es"		"Tu has agregado {purple}{1} {default}a tus pinturas favoritas"
-		"zho"       "你新增了 {purple}{1} {default}到你的最愛列表"
         }
         "You removed a favorite paint"
         {
 		"#format"	"{1:s}"
     "en"		"You removed {purple}{1} {default}from your favorite paints"
-    "it""		"hai rimosso la skin{purple}{1} {default} dall'elenco delle tue preferite"
-		"pl"        "Usunąłeś {purple}{1} {default} ze swoich ulubionych skinów"
-		"es"		"Tu has borrado {purple}{1} {default}de tus pinturas favoritas"
-		"zho"       "你從你的最愛列表移除了 {purple}{1}"
         }
         "Select a paint from your favorites"
         {
 		"en"		"Select a paint from your favorites"
-    "it"		"Seleziona una skin tra le tue preferite"
-		"pl"        "Wybierz skina z ulubionych"
-		"es"		"Selecciona una pintura de tus favoritas"
-		"zho"       "從最愛列表選擇SKIN"
         }
         "You dont have access to this paint"
         {
 		"en"		"You dont have access to this paint"
-    "it"    "Non hai accesso a questa skin"
-		"pl"        "Nie masz dostępu do tego skina"
-		"es"		"Tu no tienes acceso a esta pintura"
-		"zho"       "你沒有使用這個SKIN的權限"
         }
 }

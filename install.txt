@@ -1,5 +1,9 @@
+TO BE UPDATED
+
+--- DO NOT USE ---
+
 Installation:
- 
+
 Upload .cfg file to addons/sourcemod/configs
 Upload .smx file from the zip to addons/sourcemod/plugins
 Upload .phrases.txt file to addons/sourcemod/translations
