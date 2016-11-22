@@ -1,7 +1,7 @@
 # About this fork
-This is a fork of the fraung's weaponpaints plugin for sourcemod.
-I aim to make this fork better or on par with fraung's private weapon paints plugin and 100% free!
-Sadly though, this fork will NOT have Multilanguage support.
+This is a fork of the fraung's weaponpaints plugin for sourcemod.<br>
+I aim to make this fork better or on par with fraung's private weapon paints plugin and 100% free!<br>
+Sadly though, this fork will NOT have Multilanguage support.<br>
 Sorry I don't speak or have the time to translate all the phrases in to any other languages.
 
 # How to install
@@ -29,12 +29,12 @@ Add a entry called "weaponpaints" to addons/sourcemod/configs/databases.cfg
 A example of a basic databases.cfg is http://pastebin.com/XqsEjPhS
 
 ## Cvars:
-sm_weaponpaints_c4 "0" // Enable or disable that people can apply paints to the C4. 1 = enabled, 0 = disabled
-sm_weaponpaints_saytimer "-1.0" // Time in seconds for block that show the plugin commands in chat when someone type a command. -1 = never show the commands in chat
-sm_weaponpaints_roundtimer "-1.0" // Time in seconds after the round has started for can use the commands for change the paints. -1.0 = always can use the command
-sm_weaponpaints_rmenu "1" // Re-open the menu when you select a option. 1 = enabled, 0 = disabled.
-sm_weaponpaints_onlyadmin "0" // This feature is only for admins. 1 = enabled, 0 = disabled.
-sm_weaponpaints_zombiesv "1" // Enable this for prevent crashes in zombie and 1v1 servers for knifes. 1 = enabled, 0 = disabled.
+- sm_weaponpaints_c4 "0" // Enable or disable that people can apply paints to the C4. 1 = enabled, 0 = disabled
+- sm_weaponpaints_saytimer "-1.0" // Time in seconds for block that show the plugin commands in chat when someone type a command. -1 = never show the commands in chat
+- sm_weaponpaints_roundtimer "-1.0" // Time in seconds after the round has started for can use the commands for change the paints. -1.0 = always can use the command
+- sm_weaponpaints_rmenu "1" // Re-open the menu when you select a option. 1 = enabled, 0 = disabled.
+- sm_weaponpaints_onlyadmin "0" // This feature is only for admins. 1 = enabled, 0 = disabled.
+- sm_weaponpaints_zombiesv "1" // Enable this for prevent crashes in zombie and 1v1 servers for knifes. 1 = enabled, 0 = disabled.
 
 ## Little bit of ass covering:
 I am not responsible for your game server login token being banned or your steam account being banned from CS:GO matchmaking.
