@@ -70,13 +70,18 @@ new bool:uselocal = false;
 
 new bool:comprobado41[MAXPLAYERS+1];
 
+/*
+		=====================================================================
+    	CHANGE THE NAME, AUTHOR AND URL BELOW OR YOUR GSLT WILL BE BANNED
+		=====================================================================
+*/
 public Plugin:myinfo =
 {
-	name = "You better fucking change this or i will cut you",
-	author = "Jaymo",
+	name = "Jaymo's Plugins - JWP", // Change this to a COMPLETELY irrelevant name eg. Paint Ball
+	author = "Jaymo", // Change this to your name ;)
 	description = "",
 	version = DATA,
-	url = "http://steamcommunity.com/id/CHANGEME"
+	url = "http://steamcommunity.com/id/changeme" // add ur steam url here
 };
 
 new String:g_sCmdLogPath[256];
@@ -92,7 +97,7 @@ public OnPluginStart()
 
 	LoadTranslations ("jaymo_weaponpaints.phrases");
 
-	CreateConVar("sm_wpaints_version", DATA, "", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_CHEAT|FCVAR_DONTRECORD);
+	//CreateConVar("sm_wpaints_version", DATA, "", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_CHEAT|FCVAR_DONTRECORD);
 
 	HookEvent("round_start", roundStart);
 
@@ -101,8 +106,10 @@ public OnPluginStart()
 	RegConsoleCmd("sm_wskins", GetSkins);
 	RegConsoleCmd("sm_paints", GetSkins);
 
-	RegAdminCmd("sm_reloadwskins", ReloadSkins, ADMFLAG_ROOT);
+	RegAdminCmd("sm_reloadpaints", ReloadSkins, ADMFLAG_ROOT);
 
+
+// you can change the 6 convars below if you know what you are doing
 	cvar_c4 = CreateConVar("sm_weaponpaints_c4", "1", "Enable or disable that people can apply paints to the C4. 1 = enabled, 0 = disabled");
 	cvar_saytimer = CreateConVar("sm_weaponpaints_saytimer", "10", "Time in seconds for block that show the plugin commands in chat when someone type a command. -1.0 = never show the commands in chat");
 	cvar_rtimer = CreateConVar("sm_weaponpaints_roundtimer", "20", "Time in seconds roundstart for can use the commands for change the paints. -1.0 = always can use the command");
@@ -483,7 +490,7 @@ ShowMenuM(client)
 	if(onlyadmin && GetUserAdmin(client) == INVALID_ADMIN_ID) return;
 
 	new Handle:menu2 = CreateMenu(DIDMenuHandler_2);
-	SetMenuTitle(menu2, "%T by Franc1sco franug","Menu title 2", client, DATA);
+	SetMenuTitle(menu2, "%T by Jaymo","Menu title 2", client, DATA);
 
 	decl String:tdisplay[64];
 	Format(tdisplay, sizeof(tdisplay), "%T", "Select paint for the current weapon", client);

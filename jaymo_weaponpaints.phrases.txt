@@ -4,66 +4,83 @@
         {
 		"en"		"Choose a paint for your weapon"
         }
+
         "Weapon paints reloaded"
         {
 		"en"		"Weapon paints reloaded"
         }
+
         "You cant use this when you are dead"
         {
-		"en"		"You cant use this when you are dead"
+		"en"		"You cant use this while you are dead"
         }
+
         "You cant use this when you are in a lastrequest"
         {
-		"en"		"You cant use this when you are in a lastrequest"
+		"en"		"You cant use this when you are in last request"
         }
+
         "You cant use a paint in this weapon"
         {
 		"en"		"You cant use a paint in this weapon"
         }
+
         "You have choose your default paint for your"
         {
 		"#format"	"{1:s}"
-		"en"		"You have choose{purple} your default paint {default}for your{purple} {1}"
+		"en"		"You have chosen{purple} your default paint {default}for your{purple} {1}"
         }
+
         "You have choose a random paint for your"
         {
 		"#format"	"{1:s}"
-		"en"		"You have choose{purple} a random paint {default}for your{purple} {1}"        }
+		"en"		"You have chosen{purple} a random paint {default}for your{purple} {1}"
+        }
+
         "You have choose a weapon"
         {
 		"#format"	"{1:s},{2:s}"
-		"en"		"You have choose{purple} {1} {default}for your{purple} {2}"
+		"en"		"You have chosen{purple} {1} {default}for your{purple} {2}"
         }
+
         "You can use this command only the first seconds"
         {
 		"#format"	"{1:i}"
-		"en"		"You can use this command only the first{purple} {1} {default}seconds of the round"        }
+		"en"		"You may only use this command in the first{purple} {1} {default}seconds of the round"
+        }
+
         "Random paint"
         {
 		"en"		"Random paint"
         }
+
         "Default paint"
         {
 		"en"		"Default paint"
         }
+
         "Paint not found"
         {
 		"en"		"Paint not found for this weapon"
         }
+
         "Paint found"
         {
 		"#format"	"{1:s}"
 		"en"		"The paint of this weapon is{purple} {1}"
         }
+
         "Menu title 2"
         {
 		"#format"	"{1:s}"
 		"en"		"Weapon Paints [{1}]"
         }
+
         "Select paint for the current weapon"
         {
 		"en"		"Select paint for the current weapon"
         }
+
         "Select paint for each weapon"
         {
 		"en"		"Select paint for each weapon"
@@ -73,42 +90,51 @@
         {
 		"en"		"Favorite paints menu"
         }
+
         "Add a favorite paint"
         {
 		"en"		"Add new favorite paint"
         }
+
         "Remove a favorite paint"
         {
 		"en"		"Remove a favorite paint"
         }
+
         "Available favorite paint slot"
         {
 		"en"		"Available favorite paint slot"
         }
+
         "Add a favorite paint"
         {
 		"en"		"Add new favorite paint"
         }
+
         "Remove a favorite paint"
         {
 		"en"		"Remove a favorite paint"
         }
+
         "You added a favorite paint"
         {
 		"#format"	"{1:s}"
 		"en"		"You added {purple}{1} {default}to your favorite paints"
         }
+
         "You removed a favorite paint"
         {
 		"#format"	"{1:s}"
     "en"		"You removed {purple}{1} {default}from your favorite paints"
         }
+
         "Select a paint from your favorites"
         {
 		"en"		"Select a paint from your favorites"
         }
+
         "You dont have access to this paint"
         {
-		"en"		"You dont have access to this paint"
+		"en"		"You cannot use this paint"
         }
 }
