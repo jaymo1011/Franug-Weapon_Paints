@@ -8,7 +8,7 @@ Sorry I don't speak or have the time to translate all the phrases in to any othe
 ## Installation (Public server with GSLT):
 
 ### Compiling the plugin:
-1. Open  jaymo_weaponpaints.sp file in a text editor
+1. Open the jaymo_weaponpaints.sp file in a text editor
 2. Go to line 80 and follow the instructions given and save the file
 3. Open and extract the scripting.zip included in the download to your desktop.
 4. Open the scripting folder and move the edited jaymo_weaponpaints.sp file into it
@@ -22,10 +22,10 @@ Upload .smx file you just finished creating to addons/sourcemod/plugins
 Upload .phrases.txt file to addons/sourcemod/translations
 
 ## Installation (Private server with no GSLT):
-Upload the .cfg file to addons/sourcemod/configs
-Upload the .smx file from the zip to addons/sourcemod/plugins  (WARNING IF YOUR SERVER IS PUBLIC, YOUR LOGIN TOKEN WILL BE BANNED)
-Upload the .phrases.txt file to addons/sourcemod/translations
-Add a entry called "weaponpaints" to addons/sourcemod/configs/databases.cfg
+Upload the .cfg file to addons/sourcemod/configs<br>
+Upload the .smx file from the zip to addons/sourcemod/plugins  (WARNING IF YOUR SERVER IS PUBLIC, YOUR LOGIN TOKEN WILL BE BANNED)<br>
+Upload the .phrases.txt file to addons/sourcemod/translations<br>
+Add a entry called "weaponpaints" to addons/sourcemod/configs/databases.cfg<br>
 A example of a basic databases.cfg is http://pastebin.com/XqsEjPhS
 
 ## Cvars:
