@@ -17,8 +17,8 @@ Sorry I don't speak or have the time to translate all the phrases in to any othe
 You have now compiled the plugin and you can move on to the next step
 
 ### Uploading files
-Upload .cfg file to addons/sourcemod/configs
-Upload .smx file you just finished creating to addons/sourcemod/plugins
+Upload .cfg file to addons/sourcemod/configs<br>
+Upload .smx file you just finished creating to addons/sourcemod/plugins<br>
 Upload .phrases.txt file to addons/sourcemod/translations
 
 ## Installation (Private server with no GSLT):
